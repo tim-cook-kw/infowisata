@@ -11,6 +11,8 @@
 |
 */
 
-Route::middleware(['checkauth'])->group(function () {
-    Route::get('/category', 'CategoryController@index')->name('kategori.index');
+Route::prefix('authtentication')->group(function() {
+    Route::post('/', 'AuthtenticationController@index')->name('auth');
 });
+Route::get('/login','AuthtenticationController@login')->name('login');
+Route::get('/logout','AuthtenticationController@logout')->name('logout');

@@ -1,30 +1,41 @@
 <?php
 
-namespace Modules\Wisata\Http\Controllers;
+namespace Modules\Authtentication\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Modules\Category\Entities\CategoryModel;
-class WisataController extends Controller
+use Illuminate\Support\Facades\Auth;
+class AuthtenticationController extends Controller
 {
     /**
      * Display a listing of the resource.
      * @return Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $datacategory = CategoryModel::all();
-        return view('wisata::index',['datacategory' => $datacategory]);
-    }
+        $validatedData = $request->validate([
+            'email' => 'required',
+            'password' => 'required',
+        ]);
+        if (Auth::attempt(['email' => $request->email, 'password' => $request->password, 'roles' => 1])) {
+            return redirect()->route('home.index');
+        }else{
+            return redirect()->route('login');
+        }
 
+    }
+    public function login()
+    {
+        return view('authtentication::login');
+    }
     /**
      * Show the form for creating a new resource.
      * @return Response
      */
     public function create()
     {
-        return view('wisata::create');
+        return view('authtentication::create');
     }
 
     /**
@@ -44,7 +55,7 @@ class WisataController extends Controller
      */
     public function show($id)
     {
-        return view('wisata::show');
+        return view('authtentication::show');
     }
 
     /**
@@ -54,7 +65,7 @@ class WisataController extends Controller
      */
     public function edit($id)
     {
-        return view('wisata::edit');
+        return view('authtentication::edit');
     }
 
     /**
@@ -76,5 +87,10 @@ class WisataController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('login');
     }
 }

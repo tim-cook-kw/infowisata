@@ -26,6 +26,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+  @include('partials.footer')
 </div>
 <!-- ./wrapper -->
 @include('partials.script')

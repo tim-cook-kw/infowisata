@@ -13,7 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/wisata', function (Request $request) {
+Route::middleware('auth:api')->get('/authtentication', function (Request $request) {
     return $request->user();
 });
-Route::resource('wisata','WisataApiController');

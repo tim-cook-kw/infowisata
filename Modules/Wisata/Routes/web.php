@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('wisata')->group(function() {
-    Route::get('/', 'WisataController@index');
+Route::middleware(['checkauth'])->group(function() {
+    Route::get('/wisata', 'WisataController@index')->name('infowisata.index');
 });

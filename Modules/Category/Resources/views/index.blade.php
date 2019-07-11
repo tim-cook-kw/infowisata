@@ -1,5 +1,15 @@
 @extends('apps.layout')
 @section('sectionheader')
+<section class="content-header">
+        <h1>
+          Category
+          <small>List Category</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-database"></i> Master Data</a></li>
+          <li class="active">Category</li>
+        </ol>
+      </section>
 @endsection
 @section('content')
    <div class="box box-primary">

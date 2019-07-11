@@ -6,7 +6,7 @@
         <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
       </div>
       <div class="pull-left info">
-        <p>Alexander Pierce</p>
+        <p>{{Auth::user()->name}}</p>
         <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
       </div>
     </div>
@@ -29,7 +29,7 @@
           <i class="fa fa-home"></i> <span>Beranda</span>
         </a>
       </li>
-      <li class="active treeview">
+      <li class="{{ Request::is('category') ? 'active' : '' }} treeview">
         <a href="#">
           <i class="fa fa-database"></i> <span>Master Data</span>
           <span class="pull-right-container">
@@ -37,11 +37,11 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Kategori</a></li>
+          <li class="{{ Request::is('category') ? 'active' : '' }}"><a href="{{route('kategori.index')}}"><i class="fa fa-circle-o"></i> Kategori</a></li>
         </ul>
       </li>
-      <li>
-        <a href="pages/widgets.html">
+      <li  class="{{ Request::is('wisata') ? 'active' : '' }}">
+        <a href="{{route('infowisata.index')}}">
           <i class="fa fa-book"></i> <span>Info Wisata</span>
         </a>
       </li>
