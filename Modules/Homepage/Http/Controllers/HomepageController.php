@@ -76,4 +76,9 @@ class HomepageController extends Controller
     {
         //
     }
+
+    public function homeindex()
+    {
+        return view('homepage::layouts.index');
+    }
 }

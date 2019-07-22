@@ -14,5 +14,5 @@
 Route::prefix('authtentication')->group(function() {
     Route::post('/', 'AuthtenticationController@index')->name('auth');
 });
-Route::get('/login','AuthtenticationController@login')->name('login');
+Route::get('/','AuthtenticationController@login')->name('login');
 Route::get('/logout','AuthtenticationController@logout')->name('logout');
