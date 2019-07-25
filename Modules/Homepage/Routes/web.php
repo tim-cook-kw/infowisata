@@ -15,3 +15,5 @@ Route::prefix('homepage')->group(function() {
     Route::get('/', 'HomepageController@index')->name('home.index');
     Route::get('/homeindex', 'HomepageController@homeindex')->name('homeindex.index');
 });
+
+Route::get('/', 'HomepageController@homeindex')->name('homeindex.index');

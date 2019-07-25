@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-  color: #147db7;
+  color: #136a8a;
   font-size: 44px;
   text-transform: capitalize;
     
@@ -75,7 +75,7 @@ h2 small {
 }
 h3 {
     font-weight: 700;
-  color: #147db7;
+  color: #136a8a;
   font-size: 26px;
   line-height: 26px;
   letter-spacing: 1px;
@@ -95,18 +95,18 @@ h3 {
 }
 .btn-transparent-white:hover{
     border:2px solid #fff;
-    color: #147db7;
+    color: #136a8a;
     background: #fff;
 }
 .btn-transparent-prime{
-    border:2px solid #147db7;
-    color: #218ec9;
+    border:2px solid #136a8a;
+    color: #136a8a;
     background: transparent;
 }
 .btn-transparent-prime:hover{
     border:2px solid #fff;
     color: #fff;
-    background: #147db7;
+    background: #136a8a;
 }
 
 p {
@@ -132,7 +132,7 @@ a:focus {
 /* hover min css */
 .hvr-bounce-to-bottom:before,
 .hvr-bounce-to-top:before {
-  background-color: #ffffff;
+  background-color: #626262;
 }
 
 
@@ -180,9 +180,9 @@ section {
 
 #banner .gradient-overlay {
   
-background: #147db7; /* fallback for old browsers */
-background: -webkit-linear-gradient(120deg, #147db7 , #c7e9fc); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(120deg, #147db7 , #c7e9fc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: #136a8a; */
+/* background: -webkit-linear-gradient(120deg, #136a8a , #267871); */
+/* background: linear-gradient(120deg, #136a8a , #267871); */
   opacity: 0.8;      
   position: absolute;
   top: 0;
@@ -250,9 +250,9 @@ background: linear-gradient(120deg, #147db7 , #c7e9fc); /* W3C, IE 10+/ Edge, Fi
 
 .affix {
 	animation: 1s ease 0s normal both 1 running slideInDown;
-	background: #147db7; /* fallback for old browsers */
-background: -webkit-linear-gradient(120deg, #147db7 , #61aed8); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #136a8a; /* fallback for old browsers */
+background: -webkit-linear-gradient(120deg, #136a8a , #267871); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(120deg, #136a8a , #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding: 0.75em 0;
 	position: fixed;
 	z-index: 1000;
@@ -416,9 +416,9 @@ background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Fi
 } 
 
 #hotels .gallery-thumb .gallery-overlay {
-  background: #147db7; /* fallback for old browsers */
-background: -webkit-linear-gradient(120deg, #147db7 , #61aed8); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #136a8a; /* fallback for old browsers */
+background: -webkit-linear-gradient(120deg, #136a8a , #267871); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(120deg, #136a8a , #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: absolute;
   top: 0;
   right: 0;
@@ -470,7 +470,7 @@ background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Fi
 }
 
 .filter-wrapper li a {
-    color: #147db7;
+    color: #136a8a;
     font-size: 16px;
     font-weight: 600;
     padding: 8px 17px;
@@ -480,12 +480,12 @@ background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Fi
     text-decoration: none;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    border:1px solid #147db7;
+    border:1px solid #136a8a;
     border-radius: 4px;
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  background: #147db7;
+  background: #136a8a;
   color: #fff;
 }
 
@@ -573,9 +573,9 @@ background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Fi
 
 /*-------------- Footer section  --------------*/
 footer {
-	background: #147db7; /* fallback for old browsers */
-background: -webkit-linear-gradient(120deg, #147db7 , #61aed8); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #136a8a; /* fallback for old browsers */
+background: -webkit-linear-gradient(120deg, #136a8a , #267871); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(120deg, #136a8a , #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	float: left;
 	width: 100%;
 	color: #fff;
@@ -682,9 +682,9 @@ footer .love-text{
   }
 
     .navbar-collapse{
-      background: #147db7; /* fallback for old browsers */
-      background: -webkit-linear-gradient(120deg, #147db7 , #61aed8); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(120deg, #147db7 , #61aed8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #136a8a; /* fallback for old browsers */
+      background: -webkit-linear-gradient(120deg, #136a8a , #267871); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(120deg, #136a8a , #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 }
 
@@ -722,4 +722,207 @@ footer .love-text{
 
   footer {text-align: center;}
 
+}
+
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */ 
+
+/*------------------------------------------*/
+/*	 Preload Animation 
+/*------------------------------------------*/
+#preloader{
+	position: fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:99999; 
+	background-color:#fff;
+}
+
+#status{
+	position:absolute;
+	top:50%; 
+	left:50%; 
+	margin:-100px 0 0 -100px;
+	width:200px;
+	height:200px;
+	background-image:url(../img/icons/loader.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100px 100px;
+}        
+   
+/*------------------------------------------*/
+/*	 Parallax Settings
+/*------------------------------------------*/
+
+.parallax {
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* ==========================================================================
+   03. INTRO   
+   ========================================================================== */   
+
+#intro {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	padding: 0 !important;
+}
+  
+#slides {
+	position: relative;
+}
+.tgs-slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#slidesbg {
+	z-index: 1;
+}
+#slides .scrollable {
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	*zoom: 1;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+#slides .scrollable:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*------------------------------------------*/
+/*	 Intro Page Content   
+/*------------------------------------------*/
+
+.intro-content {
+	width: 80%; 
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	padding: 50px;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.intro-content h1 {
+	font-size: 500%;	
+	font-weight: 900; 
+	line-height: 95%;
+	margin-bottom: 20px; 
+}
+
+.intro-content h3 {
+	font-size: 200%;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 0; 
+}
+
+/*------------------------------------------*/
+/*	 Intro Page Pagination   
+/*------------------------------------------*/
+
+.slides-pagination {
+	width: 100%;
+	position: absolute;
+	bottom: 24%;
+	z-index: 20;
+	text-align: center;
+}
+
+.slides-pagination a {
+	width: 30px;
+	height: 4px;
+	background: #ffffff;
+	color: #1a1a1a;
+	opacity: 0.5; 
+	-moz-opacity: 0.5; 
+	filter: alpha(opacity=50);
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	zoom: 1;
+	*display: inline;
+	margin: 2px;
+	overflow: hidden;
+	text-indent: -100%;
+}
+	
+.slides-pagination a:hover,
+.slides-pagination a.current {
+	opacity: 1; 
+	-moz-opacity: 1; 
+	filter: alpha(opacity=100);
+}
+   
+/*------------------------------------------*/
+/*	 Intro Page Scroll Down Button
+/*------------------------------------------*/
+
+.scroll-down {
+	width: 100%;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 5%;
+	z-index: 99;
+}
+
+.scroll-down span {
+	background: transparent;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto 10px;
+	border: 2px solid #fff;
+	box-shadow: 0px 0px 0px 0 rgba(10, 10, 10, 0.15);
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+.scroll-down span:hover {
+	background: #d2512c;
+	border-color: #d2512c;
+	box-shadow: 0px 0px 0px 10px rgba(240, 240, 240, 0.3);
+}
+
+.scroll-down span [class*="fa-"] {
+	color: #fff;
+	font-size: 36px;
+	line-height: 40px;
 }
